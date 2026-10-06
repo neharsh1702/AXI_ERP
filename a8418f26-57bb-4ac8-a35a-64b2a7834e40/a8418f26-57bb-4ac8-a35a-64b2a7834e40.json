@@ -8,8 +8,8 @@
       "AssigneeUserId": "",
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "Description": "",
-      "DateCreation": "10/6/2026 11:05:24 PM +00:00",
-      "DateModify": "10/6/2026 11:05:24 PM +00:00",
+      "DateCreation": "10/6/2026 11:04:57 PM +00:00",
+      "DateModify": "10/6/2026 11:04:57 PM +00:00",
       "Title": "SUB_Add_Multiselect",
       "Type": "SubFlow",
       "IsDeleted": "False",
@@ -2344,7 +2344,138 @@
             ]
           }
         ],
-        "FlowProperties": []
+        "FlowProperties": [
+          {
+            "ParentBuildingBlockId": "a8418f26-57bb-4ac8-a35a-64b2a7834e40",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "3d3546d0-6d72-46d2-a8a5-adeb259e630b",
+            "Type": "ValueModuleInput",
+            "Key": "ModuleInput",
+            "Title": "Te selecteren waarde",
+            "SortOrder": "4",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "0e95bad7-a70f-430a-85c0-69cdf347fdc4",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "0e95bad7-a70f-430a-85c0-69cdf347fdc4",
+                "InputFlowPropertyId": "bf6bdfd5-8695-439d-85d7-58f8b5fc9606",
+                "Id": "1d1c7a85-29e3-4a22-8ef0-37dcb2134097",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "a8418f26-57bb-4ac8-a35a-64b2a7834e40",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "13f8a9e6-fd6c-4d66-ba68-e2630be8c0b7",
+            "Type": "ValueModuleInput",
+            "Key": "ModuleInput",
+            "Title": "Contrainer",
+            "SortOrder": "3",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "0fb565e3-f393-4048-b203-6ef580945df9",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "0fb565e3-f393-4048-b203-6ef580945df9",
+                "InputFlowPropertyId": "569dff6d-5efd-4ae9-9c52-3650301a6d76",
+                "Id": "33fc7d2b-d865-402a-bdb4-326088091f0f",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "a8418f26-57bb-4ac8-a35a-64b2a7834e40",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "1dd70fc5-1fb4-40c6-a3ec-f1dcb9a20d5e",
+            "Type": "ExecutionModuleInput",
+            "Key": "ModuleInput",
+            "Title": "Execution Input",
+            "SortOrder": "1",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "5d107718-6e33-4952-b322-4eeba2e03ab8",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "5d107718-6e33-4952-b322-4eeba2e03ab8",
+                "InputFlowPropertyId": "5a2a46d6-d5b8-4374-8454-c35458b94e83",
+                "Id": "64e1f29a-7290-4b07-a940-6ca6fcc4a048",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "a8418f26-57bb-4ac8-a35a-64b2a7834e40",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "790a91e6-27eb-4038-95df-cd54e5d60b26",
+            "Type": "ValueModuleInput",
+            "Key": "ModuleInput",
+            "Title": "Titel knop 'Toevoegen'",
+            "SortOrder": "5",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "8498b28c-f94b-4a59-9922-a250640f397b",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "8498b28c-f94b-4a59-9922-a250640f397b",
+                "InputFlowPropertyId": "eea156a3-7cb2-4115-a98a-28a163582fdb",
+                "Id": "c0cd86bd-26e4-47a0-b4a0-d851b28bd545",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "a8418f26-57bb-4ac8-a35a-64b2a7834e40",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "563a921e-9a79-4e14-be88-4ef13e6b8270",
+            "Type": "ExecutionModuleOutput",
+            "Key": "ModuleOutput",
+            "Title": "Execution Output",
+            "SortOrder": "2",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "a0ebf5a2-4dbc-4608-b483-67ce827c66b3",
+            "ChildProperties": [],
+            "Connections": []
+          },
+          {
+            "ParentBuildingBlockId": "a8418f26-57bb-4ac8-a35a-64b2a7834e40",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ModuleHeader",
+            "Key": "Header",
+            "Title": "",
+            "SortOrder": "0",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "e89cbd0a-f0b5-4371-b69f-dde412b3eb4f",
+            "ChildProperties": [],
+            "Connections": []
+          }
+        ]
       }
     }
   ],
@@ -2833,7 +2964,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_BH_LA:BH_LA_DT_DELIVERY_ADDRESS:5655211139046:EDIT:::P101100_DESYSLV_ID:383126&c=69567369627767282&cs=3bMfdZ-KxLFkzQ-CGI4Gtx58oOyFGVk09H0hnCeTuyXU25zqxENB1ECSCVkK9UgfDLORZ0ehbY5rh3uNr05frVQ",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "8d98b911-5755-4d99-9fa7-23b997bb1856",
+        "StrategyListSource": "265057b6-975d-453e-bb2c-32e3cf958266",
         "HasImage": "False",
         "RawId": "ed660b9a-74e6-43a3-9d78-ac8baa2a99ab",
         "SelectedStrategyId": "b82d6bbc-0470-4d54-abdc-e4da9a4c2bbb",
@@ -2849,7 +2980,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_BH_LA:BH_LA_DT_DELIVERY_ADDRESS:5655211139046:EDIT:::P101100_DESYSLV_ID:383126&c=69567369627767282&cs=3bMfdZ-KxLFkzQ-CGI4Gtx58oOyFGVk09H0hnCeTuyXU25zqxENB1ECSCVkK9UgfDLORZ0ehbY5rh3uNr05frVQ",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "20010b76-7cb3-4d80-8e96-65634e3b5934",
+        "StrategyListSource": "0868c091-9232-4b75-9ed3-e4dd6557a598",
         "HasImage": "False",
         "RawId": "0ed2909c-4ed5-4488-a5fb-0360f3e8be05",
         "SelectedStrategyId": "2990f8fb-b01c-47b0-a146-f2333c33cab1",
@@ -2865,7 +2996,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_BH_LA:BH_LA_DT_DELIVERY_ADDRESS:12512819476446:EDIT:::P101100_DESYSLV_ID:383126&c=69567369627767282&cs=3G9lIBY-mxmZGurpfQM7W3YsLgVVmOlTWI-IZKWuGxrnDFbq1QALQ3DGL-uvSdS7AA857pp9x9u8lh799MnoQIg",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "da818f52-d757-4bf7-aa0f-995ff86445e2",
+        "StrategyListSource": "61a4e741-b737-47fa-9874-66d0793ce16f",
         "HasImage": "False",
         "RawId": "ada18a70-dffb-4be6-a2ab-bf46ada7c603",
         "SelectedStrategyId": "7aae8392-0b6e-4b0c-8143-f6f62ee7d909",
@@ -2881,7 +3012,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_BH_LA:BH_LA_DT_DELIVERY_ADDRESS:5655211139046:EDIT:::P101100_DESYSLV_ID:383126&c=69567369627767282&cs=3bMfdZ-KxLFkzQ-CGI4Gtx58oOyFGVk09H0hnCeTuyXU25zqxENB1ECSCVkK9UgfDLORZ0ehbY5rh3uNr05frVQ",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "ce5a3feb-d15f-41c9-a7f0-62cc9d4e8f12",
+        "StrategyListSource": "270ac4fe-dffe-4795-8d99-a0f76aed8192",
         "HasImage": "False",
         "RawId": "29156090-6100-41c2-89ff-a6284444b4ca",
         "SelectedStrategyId": "c1ad41f8-0a82-41d8-b28e-ab0add45e24e",
