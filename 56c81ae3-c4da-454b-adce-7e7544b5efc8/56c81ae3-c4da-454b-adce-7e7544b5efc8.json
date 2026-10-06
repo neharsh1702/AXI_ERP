@@ -18,8 +18,8 @@
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "AgentConfigurationId": "",
       "Description": "",
-      "DateCreation": "10/6/2026 3:54:47 PM +00:00",
-      "DateModify": "10/6/2026 3:54:47 PM +00:00",
+      "DateCreation": "10/6/2026 3:54:48 PM +00:00",
+      "DateModify": "10/6/2026 3:54:48 PM +00:00",
       "Title": "VERK23 Verkopen Order definitief maken, verzenden en verwerken",
       "Type": "Flow",
       "IsDeleted": "False",
@@ -135687,6 +135687,40 @@
                       "Value": "9ca84c18-0ac2-4650-927c-81fd84dc9d5b",
                       "Id": "734fe224-1237-46e0-8140-2bf4ab2ebfe0"
                     }
+                  },
+                  {
+                    "ParentBuildingBlockId": "f43a614b-ba6f-40e4-9802-35670e007f39",
+                    "ParentFlowPropertyId": "40b3c596-f736-4d81-86bc-c9b2c354624c",
+                    "TemplateId": "f2f12a36-fbf2-4a65-ac88-9993b0245913",
+                    "Type": "TextField",
+                    "Key": "Dagboek",
+                    "Title": "Dagboek",
+                    "SortOrder": "1",
+                    "ValueId": "",
+                    "LType": "LText",
+                    "IsExpanded": "False",
+                    "IsBlockPropertyChecked": "",
+                    "CustomSortOrder": "0",
+                    "Id": "6ecc3282-5fec-4f53-9f68-a0f256f19f08",
+                    "ChildProperties": [],
+                    "Connections": []
+                  },
+                  {
+                    "ParentBuildingBlockId": "f43a614b-ba6f-40e4-9802-35670e007f39",
+                    "ParentFlowPropertyId": "40b3c596-f736-4d81-86bc-c9b2c354624c",
+                    "TemplateId": "5ae58d59-3eef-4fd9-8641-de38d7815b78",
+                    "Type": "TextField",
+                    "Key": "Dopcumentnummer",
+                    "Title": "Dopcumentnummer",
+                    "SortOrder": "0",
+                    "ValueId": "",
+                    "LType": "LText",
+                    "IsExpanded": "False",
+                    "IsBlockPropertyChecked": "",
+                    "CustomSortOrder": "0",
+                    "Id": "c59a4baf-8d83-4ce3-a7f9-077ac1a03fa0",
+                    "ChildProperties": [],
+                    "Connections": []
                   }
                 ],
                 "Connections": []
@@ -148894,7 +148928,7 @@
   "UnassociatedExportData": {
     "DesktopElementInfo13": [
       {
-        "StrategyListSource": "c884a014-6fa3-4ce0-995d-02df3053b315",
+        "StrategyListSource": "49d138a8-0e44-422a-a45b-e88ad7cab9ab",
         "ClickPointX": "30",
         "ClickPointY": "14",
         "InspectedHight": "38",
@@ -148915,7 +148949,7 @@
         "Id": "23cf5d85-19c4-423f-b539-91068035fb97"
       },
       {
-        "StrategyListSource": "155609a0-e0e0-45a8-9d32-1a1ed47d9608",
+        "StrategyListSource": "177f6c71-3bf3-43a7-96bb-4af8d227c08f",
         "ClickPointX": "11",
         "ClickPointY": "16",
         "InspectedHight": "31",
@@ -148936,7 +148970,7 @@
         "Id": "5bf54f10-95cf-42fb-a561-651d8460757a"
       },
       {
-        "StrategyListSource": "c5281725-c8ac-4e93-87df-51a7933ef533",
+        "StrategyListSource": "58fd8b6e-68ec-4126-bc22-05e248d9a62d",
         "ClickPointX": "26",
         "ClickPointY": "5",
         "InspectedHight": "17",
@@ -148957,7 +148991,7 @@
         "Id": "69f4b0df-0235-4ba4-b4e0-e6fb66a91124"
       },
       {
-        "StrategyListSource": "7713164b-bc1a-48aa-987f-55b7b8eef66e",
+        "StrategyListSource": "2dfc2b4d-ee85-4b4b-9a53-f7055dc27bfe",
         "ClickPointX": "44",
         "ClickPointY": "38",
         "InspectedHight": "410",
@@ -151599,7 +151633,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_VK_VO:VK_VO_DT_SALES_ORDER:6430525561658:::101100::&c=69567369627712345&cs=3Y6S6IAno_VVt0KIg2GiuLOU7jwHSmRymj3ANSrJLTIbQ0Z-_4S8x1ta-OVBFYpEK1GN4vQ7Wsui9fESf-fTC6Q",
         "Fields": "",
-        "StrategyListSource": "9b98ffb2-2e5a-4547-9ea3-579f78239aae",
+        "StrategyListSource": "a993d5e8-6d51-4319-bd84-4339a644141c",
         "HasImage": "False",
         "RawId": "1dbd8cc2-366b-4c12-acb8-da5b2b818804",
         "SelectedStrategyId": "313298fb-1d74-4a83-b729-50c539e79c15",
@@ -151615,7 +151649,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/erptest/f?p=STD_AL:AL_AL_DB_GENERAL:1690690719764::::P0_WVBCBRS:J&c=69567369627767282",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "79837921-1378-4532-ac57-15b8fb19480e",
+        "StrategyListSource": "4b470c0a-ab49-4348-b169-d5bfd15f80de",
         "HasImage": "False",
         "RawId": "c6f47d47-72f1-4e98-a593-b4577f4f2ccd",
         "SelectedStrategyId": "587ab82b-b2ae-4927-a1fd-3398d235cf54",
@@ -151631,7 +151665,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_IN_TR:STD_IN_TR_CUSTOMER_HISTORY:6452565279249:::::&c=69567369627712345",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "b857d708-9713-4edb-a385-59c97e67e19f",
+        "StrategyListSource": "71f18b58-d27f-45e6-8928-a4dab15a0f2d",
         "HasImage": "False",
         "RawId": "91f24b7d-1174-4dcc-9879-3496a0e6cb88",
         "SelectedStrategyId": "8505e821-0a90-4d1a-82ec-ec678b95ac69",
@@ -151647,7 +151681,7 @@
       {
         "Uri": "http://192.168.77.16:8080/erptest/f?p=STD_VK_VO:VK_VO_DT_SALES_ORDER:7362924912791:::::&c=69567369627712345",
         "Fields": "",
-        "StrategyListSource": "a91e82fd-f9ea-43da-a03e-c4f5e2de30b0",
+        "StrategyListSource": "1ef5da25-7378-463e-8041-bba5075f3632",
         "HasImage": "False",
         "RawId": "a844ed5a-659f-4651-b379-bd07c1c72ea1",
         "SelectedStrategyId": "b6733494-7f3a-46c1-ba62-58819b4f8978",
@@ -151663,7 +151697,7 @@
       {
         "Uri": "http://192.168.77.16:8080/erptest/f?p=10018130:101100:9883365541306:::::",
         "Fields": "",
-        "StrategyListSource": "c4fac088-e970-4513-9ec2-df6e31df13fa",
+        "StrategyListSource": "a5aab5b6-98be-4bf2-b69a-5ec3ec4c7d68",
         "HasImage": "False",
         "RawId": "719521d8-00b7-4ebe-9248-a8634ef9351f",
         "SelectedStrategyId": "5738e44f-a6e0-44d5-95e3-bd87dd6f56a0",
@@ -151679,7 +151713,7 @@
       {
         "Uri": "",
         "Fields": "",
-        "StrategyListSource": "ef9fe311-0f08-4ba9-81c7-214e479cea09",
+        "StrategyListSource": "a23e6a85-9a4e-4a8c-b8b2-2d76547770c9",
         "HasImage": "False",
         "RawId": "cad0a389-3e68-4f6d-b261-7a334855a28c",
         "SelectedStrategyId": "7f5f76f4-1287-45a4-b6d7-9b3564f13fba",
@@ -151695,7 +151729,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_IN_IO:IN_IO_DT_ORDER_HEADER:5464687746647:EDIT:::P101100_DEBESTH_ID:119797&c=69567369627767282&cs=1UXum8vgtufFqNNVy26gqYNeD85oKhIMWtAlmMG-IqFgzzmc81iWVIG5FOvt33itW-XQGm9Lejvs89lxaSOYQvQ",
         "Fields": "",
-        "StrategyListSource": "1cef8b43-3aba-46c2-8ca0-4bb681f9d450",
+        "StrategyListSource": "2da3788e-7ac5-484b-80e4-776a089e1543",
         "HasImage": "False",
         "RawId": "45f0878a-d6e8-4fc0-b1da-c6ef8b96a7a9",
         "SelectedStrategyId": "95e698f0-fac5-4583-96f4-5a0410eeedd6",
@@ -151711,7 +151745,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_IN_IO:IN_IO_DT_ORDER_HEADER:5464687746647:::::&c=69567369627767282",
         "Fields": "",
-        "StrategyListSource": "fd69b9fe-c47f-4b37-8102-7cca40f0f0f6",
+        "StrategyListSource": "1a6af0ec-79dc-4934-96d6-9813ed2cbd25",
         "HasImage": "False",
         "RawId": "8f8a5d68-1795-4d04-935f-236472a3a1c5",
         "SelectedStrategyId": "6b7bcfbc-6207-4b88-bb9b-6f2d2571cce5",
@@ -151727,7 +151761,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_IN_IO:IN_IO_DT_ORDER_HEADER:5464687746647:EDIT:::P101100_DEBESTH_ID:119797&c=69567369627767282&cs=1UXum8vgtufFqNNVy26gqYNeD85oKhIMWtAlmMG-IqFgzzmc81iWVIG5FOvt33itW-XQGm9Lejvs89lxaSOYQvQ",
         "Fields": "",
-        "StrategyListSource": "005d34c8-6797-4c9c-be07-3b459fb63185",
+        "StrategyListSource": "83535b93-824e-40e1-9002-05f529754838",
         "HasImage": "False",
         "RawId": "e3954e7f-5f50-4e0a-9c42-73b01920bb96",
         "SelectedStrategyId": "c1b68289-0a5a-4f3d-82fa-b8dcc0e24b9b",
@@ -151743,7 +151777,7 @@
       {
         "Uri": "",
         "Fields": "",
-        "StrategyListSource": "5193b72e-1264-4bed-99f2-73e6d873fa66",
+        "StrategyListSource": "ae8dd2e9-085b-4c21-89f6-2aac9ad32008",
         "HasImage": "False",
         "RawId": "034733a9-032c-45c5-a9b5-30373858eae9",
         "SelectedStrategyId": "2e70d778-6fd2-4c55-9379-1913afb29ff3",
@@ -151759,7 +151793,7 @@
       {
         "Uri": "",
         "Fields": "",
-        "StrategyListSource": "249d288b-55bb-4c43-a41e-5d8ea850ea15",
+        "StrategyListSource": "55c764ce-a877-4504-a852-ab0b90c52451",
         "HasImage": "False",
         "RawId": "b9901564-5ac7-47ff-af2d-96633513ae76",
         "SelectedStrategyId": "5e90d478-bbe2-460d-89a8-f34a8e248bae",
@@ -151775,7 +151809,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=10018130:101100:15213263266717:::::",
         "Fields": "",
-        "StrategyListSource": "1f0be012-e44a-4f02-8428-4c7cb2d43d6e",
+        "StrategyListSource": "40e0e87c-2e35-4580-abc4-545bcbe4d768",
         "HasImage": "False",
         "RawId": "ddcd2d8a-484a-4159-b9c3-e6805d3a8ed3",
         "SelectedStrategyId": "32cb33db-aed3-4567-81cd-adca78c05f3b",
@@ -151791,7 +151825,7 @@
       {
         "Uri": "http://192.168.77.16:8080/erptest/f?p=10018130:101100:11211995523034:::::",
         "Fields": "",
-        "StrategyListSource": "974c4a0c-95e5-4b68-ae9c-13746de9b3f4",
+        "StrategyListSource": "500671bc-9c89-44a9-8674-0fd0fa58a6ad",
         "HasImage": "False",
         "RawId": "e78f300f-33d2-4c64-8b4c-9ef64133408e",
         "SelectedStrategyId": "a60c4402-2fe6-4cdb-8bb5-e00c7c309e49",
@@ -151807,7 +151841,7 @@
       {
         "Uri": "http://192.168.77.11/erptest/f?p=STD_VK_VO:VK_VO_OV_SALES_ORDERS:14824504044715:::101000::&c=69567369627712345",
         "Fields": "",
-        "StrategyListSource": "ffff19c8-c596-459c-85bb-eb9a9ef8007b",
+        "StrategyListSource": "e23ef55f-ad35-4a6f-a84b-10df379b0ef2",
         "HasImage": "False",
         "RawId": "acb07e22-7240-4de1-8135-3cbef081c443",
         "SelectedStrategyId": "8722f750-42d8-49e0-9f2c-99b63ee44a6b",
@@ -151823,7 +151857,7 @@
       {
         "Uri": "http://192.168.77.16:8080/erptest/f?p=STD_VK_VO:VK_VO_DT_SALES_ORDER:7362924912791:::::&c=69567369627712345",
         "Fields": "",
-        "StrategyListSource": "7848bafd-8c18-42d1-9879-4798eb7e4714",
+        "StrategyListSource": "c68f91cd-c70c-435d-9720-624db0c65e80",
         "HasImage": "False",
         "RawId": "0427b423-db87-415d-aa16-3462add4d840",
         "SelectedStrategyId": "6f5f8f23-31a3-49bf-9033-5547a873f6c5",
@@ -151839,7 +151873,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/erptest/f?p=STD_AL:AL_AL_DB_GENERAL:1690690719764::::P0_WVBCBRS:J&c=69567369627767282",
         "Fields": "",
-        "StrategyListSource": "0e828c37-c318-47f8-8798-671fe6abbb97",
+        "StrategyListSource": "c329d7ad-400d-4b67-aafb-267df34ae2a6",
         "HasImage": "False",
         "RawId": "8625dade-038f-40f6-8a73-08937b59cd12",
         "SelectedStrategyId": "73ba2e39-6289-4cf1-89cf-175c32f9ab4e",
@@ -151855,7 +151889,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/erptest/f?p=STD_VK_VO:VK_VO_OV_SALES_ORDERS:16915558131918:::101000::&c=69567369627712345",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "ad5b8625-51f0-4cce-8200-7eea93604be7",
+        "StrategyListSource": "7a2acae3-d4d1-4504-9c29-e2dfa070cde9",
         "HasImage": "False",
         "RawId": "65f725ec-f53b-4bf7-b8a4-6d3c043c956f",
         "SelectedStrategyId": "eef61cff-f893-4841-b5f8-8193e6aa8035",
@@ -151871,7 +151905,7 @@
       {
         "Uri": "",
         "Fields": "",
-        "StrategyListSource": "4fd1ef83-c9f4-4286-9685-cb4f67d9bef2",
+        "StrategyListSource": "68d1181a-7352-426a-8c82-cf33bad2e5a4",
         "HasImage": "False",
         "RawId": "c6c8d7ae-8ff1-4415-9f2a-bab1772c8925",
         "SelectedStrategyId": "442c280e-664c-4611-9e21-c0909decc382",
@@ -151887,7 +151921,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/erptest/f?p=STD_AL:AL_AL_DB_GENERAL:15202613342832::::P0_WVBCBRS:J&c=69567369627767282",
         "Fields": "",
-        "StrategyListSource": "539eee2b-a0cb-4227-a6d6-b1430fa3726a",
+        "StrategyListSource": "2f65168b-fbce-4ebd-bd3c-4e8efb5db674",
         "HasImage": "False",
         "RawId": "bb10437b-e2e4-4111-a968-0ece159d4949",
         "SelectedStrategyId": "e7770bef-d824-47d2-aa96-c973d1fbfaee",
@@ -151903,7 +151937,7 @@
       {
         "Uri": "http://ab00s018:8080/apex19t/f?p=6011120:101:5000578701567:::::",
         "Fields": "",
-        "StrategyListSource": "8137b3a6-e650-4a1f-b1b2-5490016e3293",
+        "StrategyListSource": "9a092945-b0e0-4d58-9827-abc65cef4837",
         "HasImage": "False",
         "RawId": "2de0b8e3-0e8f-48d9-9d60-0e70a99dcbe3",
         "SelectedStrategyId": "45403c20-85ca-4865-97f9-f8dd9b951f60",
@@ -151919,7 +151953,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/erptest/f?p=STD_CC:CC_CC_DB_APPLICATION:79021157076::::P0_WVBCBRS:J&c=69567369627767282",
         "Fields": "",
-        "StrategyListSource": "d381825a-9238-423f-ad6c-24dc7ff23ede",
+        "StrategyListSource": "d880a838-dc88-4bd5-a45e-c98710f19f16",
         "HasImage": "False",
         "RawId": "55021cf3-97c8-48e3-a029-2ad7851bc4d2",
         "SelectedStrategyId": "186ec0b4-857c-4f98-a55a-dc7d4da790ca",
@@ -151935,7 +151969,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=10018130:101100:15213263266717:::::",
         "Fields": "",
-        "StrategyListSource": "1462f76c-3d35-484a-ab26-2f5cc4cd0096",
+        "StrategyListSource": "cc1bfbd6-cac4-4f28-8705-3c6702238abf",
         "HasImage": "False",
         "RawId": "bec282f2-def2-4073-81c4-c8c6bb6874bb",
         "SelectedStrategyId": "bdbb9da6-2226-4004-bddf-cbddff87257a",
@@ -151951,7 +151985,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=10018130:101100:15213263266717:::::",
         "Fields": "",
-        "StrategyListSource": "eba65938-779a-4025-9d85-fef4b565c526",
+        "StrategyListSource": "62abe3ba-ac74-467f-a9a2-1415f437cefe",
         "HasImage": "False",
         "RawId": "4fb754e6-c61c-4e17-a964-a30101778462",
         "SelectedStrategyId": "58bc0339-6399-4cfe-b3a7-35d2f8fed8f1",
@@ -151967,7 +152001,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/erptest/f?p=STD_AL:AL_AL_DB_GENERAL:1690690719764::::P0_WVBCBRS:J&c=69567369627767282",
         "Fields": "",
-        "StrategyListSource": "19a8a37c-f942-4684-9248-71894aae6587",
+        "StrategyListSource": "99e00c7c-9763-42a4-9b5d-8c949631ea20",
         "HasImage": "False",
         "RawId": "1bc590d8-5cfb-46e8-ba4a-60eb3a7a6cc0",
         "SelectedStrategyId": "6c9e66fd-eb7e-40e4-9b9d-fa6e66c3dcde",
@@ -151983,7 +152017,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_FD:FD_DB_FINANCIAL:1623315241820::::P0_WVBCBRS:J&c=69567369627712345",
         "Fields": "",
-        "StrategyListSource": "cf6460a2-c25d-4766-b433-fafc3d66c4d8",
+        "StrategyListSource": "d799209e-04d0-41d4-9487-15dac899d4ff",
         "HasImage": "False",
         "RawId": "509f1bc3-1b6c-4091-aa72-3820e9b969c8",
         "SelectedStrategyId": "1d89f8c3-8ba5-4468-8463-efc62c67058b",
@@ -151999,7 +152033,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_IN_IO:IN_IO_DT_ORDER_HEADER:5655211139046:::::&c=69567369627767282#",
         "Fields": "",
-        "StrategyListSource": "03b04c75-9386-4fc2-ab28-2b452ce46c98",
+        "StrategyListSource": "51595e76-63b3-4080-b3a5-e45268223274",
         "HasImage": "False",
         "RawId": "a264fe51-e289-4288-aded-fda82809d626",
         "SelectedStrategyId": "9bdc1bc8-8d40-431d-976e-a9ceb2cebe32",
@@ -152015,7 +152049,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=10018130:101100:15213263266717:::::",
         "Fields": "",
-        "StrategyListSource": "ad8f2dab-0443-428a-a21b-95c85db258fc",
+        "StrategyListSource": "9ea1158d-7dfc-47cc-9c06-30343e2fa219",
         "HasImage": "False",
         "RawId": "5716dd26-ee89-4955-b294-476913c4eef1",
         "SelectedStrategyId": "2620feaa-a682-4aef-b7d7-b1cee812c11e",
@@ -152031,7 +152065,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=10018130:101100:15213263266717:::::",
         "Fields": "",
-        "StrategyListSource": "69c59a6b-d8e8-4dc7-9a71-adc416aaec19",
+        "StrategyListSource": "84b6046d-493c-4ed1-86ef-5f3ba179d19f",
         "HasImage": "False",
         "RawId": "e12770a9-7894-4b25-a5fa-3a97f5d9c744",
         "SelectedStrategyId": "1962447d-c62f-46e7-9c75-76ee38f0484a",
@@ -152047,7 +152081,7 @@
       {
         "Uri": "http://192.168.77.16:8080/erptest/f?p=STD_VK_VO:VK_VO_DT_SALES_ORDER:18912815411900::::P101100_DEVERKH_ID:6441&c=69567369627712345&cs=1E1DdgkoXTyd3ahOsEDJV9gUPKSijTf-e0IUDjSS_I1xro2vK-xMEx-uOSCbNYKPKusJOChg1DfcoS8C8j-5gTg",
         "Fields": "",
-        "StrategyListSource": "0a1a819f-c68f-4285-b70f-6613e19d3bbd",
+        "StrategyListSource": "f960a57c-66c2-4ef3-91e7-986321da4c50",
         "HasImage": "False",
         "RawId": "a5d2aa08-e0b2-47e9-af80-ecdc4b702077",
         "SelectedStrategyId": "d5adfea5-981b-4ff2-a4c7-45f0cb27ec8c",
@@ -152063,7 +152097,7 @@
       {
         "Uri": "http://192.168.77.16:8080/erptest/f?p=10018130:101100:2876566428913:::::&success_msg=V2lqemlnaW5nZW4gb3BnZXNsYWdlbi4%2FBg-eHVMtOfVOEsN_lTcEwfb9EdE_Set2BmuA9dPNJ-Go2j-vrLorkWJ0kppgQVsmMpco0eXDZcKwQXijqDy1EQ",
         "Fields": "",
-        "StrategyListSource": "e81a67ff-f8b0-4596-95fd-b37a216af4ae",
+        "StrategyListSource": "138eee6c-a2eb-4774-a770-38c82c3d14fe",
         "HasImage": "False",
         "RawId": "e2112ab0-622f-4949-9fbc-939132029e73",
         "SelectedStrategyId": "13d5b3db-e12a-4db5-ba0f-f3152a94f442",
@@ -152079,7 +152113,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_IN_IO:IN_IO_DT_ORDER_HEADER:995011867184:EDIT:::P101100_DEBESTH_ID:119797&c=69567369627767282&cs=1UXum8vgtufFqNNVy26gqYNeD85oKhIMWtAlmMG-IqFgzzmc81iWVIG5FOvt33itW-XQGm9Lejvs89lxaSOYQvQ",
         "Fields": "",
-        "StrategyListSource": "e5b7284f-9614-44d6-b22a-e2a938375464",
+        "StrategyListSource": "3648c925-2a58-4999-befd-25add91bd9aa",
         "HasImage": "False",
         "RawId": "2bfecff6-7657-49b0-bced-6920988677af",
         "SelectedStrategyId": "2fd30607-c72e-4794-bb78-ce92714ea175",
@@ -152095,7 +152129,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/erptest/f?p=STD_CC:CC_CC_DB_APPLICATION:1690690719764::::P0_WVBCBRS:J&c=69567369627767282",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "18e667f8-4873-44c9-a591-da38deced71a",
+        "StrategyListSource": "dd39ba52-2b98-4572-b15e-1e0d25521bc5",
         "HasImage": "False",
         "RawId": "f065d024-ae8e-40a9-bfd8-adfce75a20f9",
         "SelectedStrategyId": "f09bff5a-1322-4c59-9c26-747746dbe278",
@@ -152111,7 +152145,7 @@
       {
         "Uri": "http://192.168.77.16:8080/erptest/f?p=10018130:101100:18912815411900:::::&success_msg=V2lqemlnaW5nZW4gb3BnZXNsYWdlbi4%2Fts86moYm2Y6tlNZlQ5nKpgCO6UgRfHAxqYb1m113u-Oryi8CBumJO8ejfAzpIDEi7PL10PLHk5bCQeYlq_T15w",
         "Fields": "",
-        "StrategyListSource": "18fc3726-7140-40d1-8e35-da9e184ab2b8",
+        "StrategyListSource": "155abfb9-bb8c-402d-92b1-d3c80a2123b2",
         "HasImage": "False",
         "RawId": "12169bf4-46cc-4fe9-ad44-f57dc9296f79",
         "SelectedStrategyId": "901a7e73-96a0-4ae6-bc38-c914b53ec58d",
@@ -152127,7 +152161,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=10018130:101100:15213263266717:::::",
         "Fields": "",
-        "StrategyListSource": "ec8c40af-a17e-40af-8736-8e8220c848d0",
+        "StrategyListSource": "7778b260-287e-4676-96f0-87bedfba620e",
         "HasImage": "False",
         "RawId": "a8dfd057-dd00-42fa-8b2a-e3842f35cb36",
         "SelectedStrategyId": "c3befb50-a41f-465e-bb68-9e265bac13d3",
@@ -152143,7 +152177,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_FD:FD_DB_FINANCIAL:25542317885433::::P0_WVBCBRS:J&c=69567369627712345",
         "Fields": "",
-        "StrategyListSource": "ab1df1fd-8a4e-4c0b-90aa-cbaea6e76a88",
+        "StrategyListSource": "106bd65b-9e78-408c-acf9-5458cb20c319",
         "HasImage": "False",
         "RawId": "0fd563e8-b819-46b5-a39e-8ab7d637f766",
         "SelectedStrategyId": "620250ed-2733-43c1-9293-1591c5cb581b",
@@ -152159,7 +152193,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=10018130:101100:15213263266717:::::",
         "Fields": "",
-        "StrategyListSource": "0551e82d-a3f0-4bae-befc-008c52bdf819",
+        "StrategyListSource": "a0a754f4-c506-4658-afec-8f964b0e2666",
         "HasImage": "False",
         "RawId": "59dfb7a7-c54f-4192-b45c-3de0a2a0d973",
         "SelectedStrategyId": "3de92e8b-2db0-43bc-8e4d-2c38b26507b7",
@@ -152175,7 +152209,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_IN_IO:IN_IO_DT_ORDER_HEADER:5655211139046:::::&c=69567369627767282#",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "5b6ca9d9-b192-4684-9176-39860568c145",
+        "StrategyListSource": "cb1354cf-d296-47f6-8f18-3420b7fef2bf",
         "HasImage": "False",
         "RawId": "99cb4232-6a28-46d3-b988-af3ed1f4ff42",
         "SelectedStrategyId": "1c4282b1-b1d4-4234-a13a-a161e20194a0",
@@ -152191,7 +152225,7 @@
       {
         "Uri": "http://192.168.77.16:8080/erptest/f?p=STD_VK_VO:VK_VO_DT_SALES_ORDER:7362924912791:::::&c=69567369627712345",
         "Fields": "",
-        "StrategyListSource": "ab546907-5300-4ef0-9df7-6be76ece9c23",
+        "StrategyListSource": "517b3527-446d-4592-8b1e-ad2618f1367a",
         "HasImage": "False",
         "RawId": "7affdfd8-bf5b-41c1-b2e6-7efa4292af5a",
         "SelectedStrategyId": "c6e6f044-aefd-403c-b746-5764b768dd7a",
@@ -152207,7 +152241,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_AL:AL_AL_DB_GENERAL:14775181149225::::P0_WVBCBRS:J&c=69567369627712345",
         "Fields": "",
-        "StrategyListSource": "9d235477-5d97-4e42-89f4-5f8ba52cd2a1",
+        "StrategyListSource": "45f8dcce-43dc-4680-ade8-4fbeeeefd495",
         "HasImage": "False",
         "RawId": "f17d39d4-2ced-4231-ad5b-59f138ceeb13",
         "SelectedStrategyId": "f3008337-fc87-4ced-b673-bd36409a3e59",
@@ -152223,7 +152257,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/erptest/f?p=STD_PJ_PJ:PJ_PJ_OV_HOOFDPROJECTEN:12032289176398:::::&c=69567369627712345",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "a23279ea-7216-4e25-b0cb-19b09927b281",
+        "StrategyListSource": "6779be48-c3b5-450a-82bd-b97a5f576211",
         "HasImage": "False",
         "RawId": "bcc277c7-9287-45a2-b812-ee64b5073602",
         "SelectedStrategyId": "57dcc768-a729-4e34-a097-7097698043b0",
@@ -152239,7 +152273,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/erptest/f?p=STD_VK_VO:VK_VO_DT_SALES_ORDER:2558130005275:EDIT:::P101100_DEVERKH_ID:18325&c=69567369627712345&cs=1cUynOEGXpwHIECA8OotnVKw_1tQJ1-67aXoHJK5YdLXIYRtUZ-z2xZRnmuVrvDNvyFCgJlIHt58hoEbRN0JgkQ",
         "Fields": "",
-        "StrategyListSource": "d25fd83d-df23-4c60-99c1-36128d5396b1",
+        "StrategyListSource": "8e379fdc-5ac6-4cff-a0e4-bc32adeaf310",
         "HasImage": "False",
         "RawId": "20e8fba8-2f2a-4537-b148-a5a6ec06576c",
         "SelectedStrategyId": "a94cd95c-1604-41c0-b60b-7ab798cf866f",
@@ -152255,7 +152289,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=STD_AL:AL_AL_DB_GENERAL:14775181149225::::P0_WVBCBRS:J&c=69567369627712345",
         "Fields": "",
-        "StrategyListSource": "0cd52587-fee4-4427-a1e4-dc8bfc9ae27d",
+        "StrategyListSource": "9ea3528c-2389-4efb-96a0-fe3bb087f6d4",
         "HasImage": "False",
         "RawId": "f2345093-1036-47b2-bbc1-60663b228b34",
         "SelectedStrategyId": "9da48c45-14d6-45af-8e14-b2e91529f8e7",
@@ -152271,7 +152305,7 @@
       {
         "Uri": "http://192.168.77.16:8080/erptest/f?p=STD_VK:VK_DB_DEBTORS:13058650784330::::P0_WVBCBRS:J&c=69567369627712345",
         "Fields": "",
-        "StrategyListSource": "45d08021-70e8-4338-8847-b4ba17d5db0c",
+        "StrategyListSource": "506d9deb-8d7b-4e21-bdb9-f7e72ac9b31d",
         "HasImage": "False",
         "RawId": "6b5fbc7e-61ea-49fe-8b6c-139edf1732cc",
         "SelectedStrategyId": "7c65a05e-52cd-47a6-bdfd-9c6fc3f27f05",
@@ -152287,7 +152321,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=10018130:101100:11229288176574:::::",
         "Fields": "",
-        "StrategyListSource": "d7ff37ed-c8d7-4997-b347-1a73f0f06661",
+        "StrategyListSource": "5fa30ab0-5c01-4825-b56e-5dd2801fc6cd",
         "HasImage": "False",
         "RawId": "71259cfd-8927-49dd-8040-69927316aa2a",
         "SelectedStrategyId": "f360760b-f51c-4a58-967f-ff6861e5c10b",
@@ -152303,7 +152337,7 @@
       {
         "Uri": "",
         "Fields": "",
-        "StrategyListSource": "c6b652b7-0b35-40d8-933e-0ed92c1cb6c1",
+        "StrategyListSource": "9a846869-ea2e-470b-85c5-86ba962b1a43",
         "HasImage": "False",
         "RawId": "d4595b00-ddfd-4eb9-a7ae-d18b4a419fe1",
         "SelectedStrategyId": "ddded076-9c08-4c2d-9b0d-9e2500461a0c",
@@ -152319,7 +152353,7 @@
       {
         "Uri": "http://192.168.77.16:8080/erptest/f?p=STD_VK_VO:VK_VO_DT_SALES_ORDER:7362924912791:::::&c=69567369627712345",
         "Fields": "",
-        "StrategyListSource": "6d3b279c-9f24-4d09-bb2f-e67955e2fdec",
+        "StrategyListSource": "46a22173-4b45-45d5-ada3-fdb49f253ef0",
         "HasImage": "False",
         "RawId": "65785108-dc8d-47f3-8eaf-c68ff74573dd",
         "SelectedStrategyId": "315a6ec4-b6d5-49d7-884b-2f94c25df42b",
@@ -152335,7 +152369,7 @@
       {
         "Uri": "http://192.168.77.16:8080/erptest/f?p=STD_VK_VO:VK_VO_DT_SALES_ORDER:17524589927184:EDIT:::P101100_DEVERKH_ID:8427&c=69567369627712345&cs=1iJMsCmbplazlQVrRb2-0GQldcUNPrTVE890fSFHahQk-uIEbGCT815dNl4zadMu0itodjorw-o3SSr4R8hfPqw",
         "Fields": "",
-        "StrategyListSource": "7807b812-927b-4e05-a6d6-40560b6080cd",
+        "StrategyListSource": "37379742-320d-4664-a352-bd778a53cc01",
         "HasImage": "False",
         "RawId": "e96d4509-c960-4aa3-b431-5ddc962c9b6f",
         "SelectedStrategyId": "57639fbb-b618-4fae-a651-19ade88d273f",
@@ -152351,7 +152385,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/erptest/f?p=STD_CC:CC_CC_DB_APPLICATION:1690690719764::::P0_WVBCBRS:J&c=69567369627767282",
         "Fields": "",
-        "StrategyListSource": "2f5ab93c-025f-430d-9f6e-83be1850a7bb",
+        "StrategyListSource": "806e5cfe-7ec6-4769-bc1c-1b4881d85047",
         "HasImage": "False",
         "RawId": "5dd7c84c-12ad-4d1a-b4bd-3c7bfd59287c",
         "SelectedStrategyId": "c6563f28-4f84-4598-8350-fa18fb34c830",
@@ -152367,7 +152401,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/f?p=10018130:101100:15213263266717:::::",
         "Fields": "",
-        "StrategyListSource": "eb96fc56-f16b-4e3a-bcc9-12cc07b53cac",
+        "StrategyListSource": "b1604618-5d5e-4c25-af41-ba94f41d1a5e",
         "HasImage": "False",
         "RawId": "ea6e542a-1074-4add-bc61-ef7667b28fec",
         "SelectedStrategyId": "7a437175-efdb-499b-8157-5ac6282fef80",
@@ -152383,7 +152417,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/erptest/f?p=STD_CC:CC_CC_DB_APPLICATION:1690690719764::::P0_WVBCBRS:J&c=69567369627767282",
         "Fields": "",
-        "StrategyListSource": "36012575-2bee-4675-abe0-b216301ea7a1",
+        "StrategyListSource": "c690ff0c-7ddf-4be6-9214-346426bef0a8",
         "HasImage": "False",
         "RawId": "6bc3ebc2-5c29-4b94-853d-f7820505d1f7",
         "SelectedStrategyId": "090bea18-e8fe-4e83-9419-2c55c8bb2b5f",
@@ -152399,7 +152433,7 @@
       {
         "Uri": "http://192.168.77.16:8080/erptest/f?p=10018130:101100:18912815411900:::::&success_msg=V2lqemlnaW5nZW4gb3BnZXNsYWdlbi4%2Fts86moYm2Y6tlNZlQ5nKpgCO6UgRfHAxqYb1m113u-Oryi8CBumJO8ejfAzpIDEi7PL10PLHk5bCQeYlq_T15w",
         "Fields": "",
-        "StrategyListSource": "e71ac99b-649a-46b0-a4c9-8ba499f1aa6c",
+        "StrategyListSource": "02032903-bd99-4120-8f70-9bcd2e48d2d3",
         "HasImage": "False",
         "RawId": "c7432e84-a661-4374-9fe7-de2caa45c2bb",
         "SelectedStrategyId": "e704e196-4188-465e-b2fa-512349d94cb0",
@@ -152415,7 +152449,7 @@
       {
         "Uri": "",
         "Fields": "",
-        "StrategyListSource": "cc13b22d-45d7-417e-8669-4b22910b8127",
+        "StrategyListSource": "d4e0a846-f3aa-4092-abf1-a1fb84bab796",
         "HasImage": "False",
         "RawId": "0398aa66-51af-4272-853f-d75f713a2ad9",
         "SelectedStrategyId": "44fe19d7-a9fd-4ebd-b747-5340bc95c956",
@@ -152431,7 +152465,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/erptest/f?p=STD_AL:AL_AL_DB_GENERAL:79021157076::::P0_WVBCBRS:J&c=69567369627767282",
         "Fields": "",
-        "StrategyListSource": "daaa918f-5dc8-44ec-aadc-c56c7a3c5aee",
+        "StrategyListSource": "fc8ea7dc-2873-465b-9334-dd44e467c207",
         "HasImage": "False",
         "RawId": "90977d35-fd1e-4be5-80de-880aae3951f4",
         "SelectedStrategyId": "1408cc39-d595-4611-8c5e-c42a7c8b4280",
@@ -152447,7 +152481,7 @@
       {
         "Uri": "http://192.168.77.16:8080/erptest/f?p=10018130:101100:18912815411900:::::&success_msg=V2lqemlnaW5nZW4gb3BnZXNsYWdlbi4%2Fts86moYm2Y6tlNZlQ5nKpgCO6UgRfHAxqYb1m113u-Oryi8CBumJO8ejfAzpIDEi7PL10PLHk5bCQeYlq_T15w",
         "Fields": "",
-        "StrategyListSource": "d96c0592-c7d9-4beb-b0b8-b60254de0fea",
+        "StrategyListSource": "39c1dc11-f75d-4f5a-8a2d-80b5ba4e1b85",
         "HasImage": "False",
         "RawId": "ce278c53-dd16-4408-8942-365268ec2114",
         "SelectedStrategyId": "72be85ea-fe3a-40d4-8a4d-99f2e44a2b43",
@@ -152463,7 +152497,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/erptest/f?p=STD_AL:AL_AL_DB_GENERAL:15202613342832::::P0_WVBCBRS:J&c=69567369627767282",
         "Fields": "",
-        "StrategyListSource": "24d45dba-7b57-42f8-b8e7-00bc7fc69abc",
+        "StrategyListSource": "07f6e22d-92ee-4259-86f4-999b5c5b8941",
         "HasImage": "False",
         "RawId": "45a57999-f756-4dc9-a473-e85eca06ff31",
         "SelectedStrategyId": "cded856b-6378-493b-9d9d-059f16f4fb34",
@@ -152479,7 +152513,7 @@
       {
         "Uri": "http://192.168.77.16:8080/erptest/f?p=STD_VK_VO:VK_VO_DT_SALES_ORDER:7362924912791:::::&c=69567369627712345",
         "Fields": "",
-        "StrategyListSource": "3b160b48-0023-4532-8dc2-60c7c0f4807a",
+        "StrategyListSource": "13af9546-89c6-4dd7-a244-9d7eb074d572",
         "HasImage": "False",
         "RawId": "d9f3dc43-5d74-4540-b9a0-ef3718026932",
         "SelectedStrategyId": "7df1ebdc-5bcc-4a54-ae1f-42d1a404ebfd",
@@ -152495,7 +152529,7 @@
       {
         "Uri": "https://erptest.axi.nl/erptest/erptest/f?p=STD_AL:AL_AL_DB_GENERAL:15202613342832::::P0_WVBCBRS:J&c=69567369627767282",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "14498f1f-bfb1-4790-8f1e-62361446bf58",
+        "StrategyListSource": "cf864fb9-3c25-45f4-8f8e-d2c41a14cf8a",
         "HasImage": "False",
         "RawId": "8163bfb5-445e-4b5f-97ab-9a247cf16585",
         "SelectedStrategyId": "0d172ffb-ee92-403a-9170-febab177a486",
